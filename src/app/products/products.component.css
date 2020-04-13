@@ -1,0 +1,33 @@
+.cardImageResize {
+  overflow: hidden;
+}
+
+.cardImageResize {
+  transition: all 1.5s ease;
+}
+
+.cardImageResize:hover img {
+  transform: scale(2);
+}
+
+img {
+  height: 350px;
+  width: 450px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.resizeImage {
+  height: 700px;
+  width: 700px;
+  overflow: scroll;
+  margin: 10px 10px 10px 10px;
+  z-index: 3;
+  position: inherit;
+
+}
+
+.resizeImage:hover {
+  transform: scale(2);
+  cursor: zoom-in;
+}
